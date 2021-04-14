@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Startup</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Your own stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div id="horizontal"></div>
+      <div class="container d-flex align-items-center h-100">
+        <div class="row">
+          <header class="text-center ">
+         <h1><strong>Entertainment Website</strong></h1>
+       </header>
+       <div class="buffer "></div>
+       <section class="text-center ">
+       <section class="text-center ">
+       <style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 20%;
+
+}
+
+</style>
+
+
+<div class="row">
+  <div class="column">
+    <img src="0.jpg" alt="Games" style="width:40%">
+  </div>
+  <div class="column">
+    <img src="musiccccc.jpg" alt="Vedios" style="width:25%">
+  </div>
+  <div class="column">
+    <img src="0.5.jpg" alt="Music" style="width:35%">
+  </div>
+</div>
+      
+
+
+
+
+      <div class="wrapper">
+      <div class="title-text">
+        <div class="title login">
+Login Form</div>
+<div class="title signup">
+Signup Form</div>
+</div>
+<div class="form-container">
+        <div class="slide-controls">
+          <input type="radio" name="slide" id="login" checked>
+          <input type="radio" name="slide" id="signup">
+          <label for="login" class="slide login">Login</label>
+          <label for="signup" class="slide signup">Signup</label>
+          <div class="slider-tab">
+</div>
+</div>
+<div class="form-inner">
+          <form action="#" class="login">
+            <div class="field">
+              <input type="text" placeholder="Email Address" required>
+            </div>
+<div class="field">
+              <input type="password" placeholder="Password" required>
+            </div>
+<div class="pass-link">
+<a href="#">Forgot password?</a></div>
+<div class="field btn">
+              <div class="btn-layer">
+</div>
+<input type="submit" value="Login">
+            </div>
+<div class="signup-link">
+Not a member? <a href="">Signup now</a></div>
+</form>
+<form action="#" class="signup">
+            <div class="field">
+              <input type="text" placeholder="Email Address" required>
+            </div>
+<div class="field">
+              <input type="password" placeholder="Password" required>
+            </div>
+<div class="field">
+              <input type="password" placeholder="Confirm password" required>
+            </div>
+<div class="field btn">
+              <div class="btn-layer">
+</div>
+<input type="submit" value="Signup">
+            </div>
+</form>
+</div>
+</div>
+</div>
+<script>
+      const loginText = document.querySelector(".title-text .login");
+      const loginForm = document.querySelector("form.login");
+      const loginBtn = document.querySelector("label.login");
+      const signupBtn = document.querySelector("label.signup");
+      const signupLink = document.querySelector("form .signup-link a");
+      signupBtn.onclick = (()=>{
+        loginForm.style.marginLeft = "-50%";
+        loginText.style.marginLeft = "-50%";
+      });
+      loginBtn.onclick = (()=>{
+        loginForm.style.marginLeft = "0%";
+        loginText.style.marginLeft = "0%";
+      });
+      signupLink.onclick = (()=>{
+        signupBtn.click();
+        return false;
+      });
+    </script>
+
+
+
+
+    
+
+      
+         
+       </section>
+      </div>
+    </div>
+    </head>
+  </body>
+</html>
